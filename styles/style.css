@@ -1,0 +1,197 @@
+:root {
+    --primary-color: #DC2F2F;
+    --secondary-color: #363636;
+    --tertiary-color: #F8F8F8;
+}
+
+html {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #F8F8F8;
+}
+
+/* NAV */
+
+nav h1 {
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+}
+
+nav {
+    
+    display: flex;
+    align-items: center;
+    background-color: #ff000020;
+
+}
+
+nav .nav-links, nav a {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 400;
+}
+
+nav .nav-links a:hover {
+    color: #6d1616;
+}
+/* HEADER */
+
+main h2 {
+    margin-top: 2rem;
+    color: #363636;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.video-title {
+    font-size: 1.6rem; /* Ajusta el tamaño según tus necesidades */
+    color: var(--secondary-color);
+    margin-bottom: .5rem;
+    margin-left: 10px;
+}
+
+.file-add {
+    margin-bottom: 1rem;
+    color: var(--secondary-color); /* Texto rojo */
+
+}
+
+.bg-files {
+    background-color: #ff000020;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.url {
+    display: flex;
+    gap: 10px;
+    width: 50%;
+    justify-content: center;
+}
+
+.url input[type="text"] {
+    flex: 1;
+    color: var(--secondary-color)
+}
+
+/* VIDEO */
+
+.video {
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Mantén la altura completa de la ventana */
+    background-color: #000;
+    max-width: calc(100% - 40px); /* Ajusta el ancho para tener en cuenta los márgenes */
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 720px;
+    border-radius: 15px; /* Ajusta el valor según tus necesidades */
+    overflow: hidden; /* Asegura que el contenido no se desborde fuera de los bordes redondeados */
+}
+
+.video-js {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff000020;
+    height: 50px;
+    color: var(--primary-color);
+    font-size: 0.8rem;
+    font-weight: 300;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+}
+
+footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* videojs-red-theme.css */
+.video-js .vjs-control-bar {
+    background-color: var(--primary-color, #ff00004c); /* Fondo rojo para la barra de control */
+}
+
+.video-js .vjs-big-play-button {
+    background-color: var(--secondary-color, #881414); /* Fondo rojo para el botón de reproducción grande */
+    border: none;
+}
+
+.video-js .vjs-play-control .vjs-icon-placeholder:before {
+    color: var(--text-color, #ffffff); /* Color blanco para el icono de reproducción */
+}
+
+.video-js .vjs-volume-control .vjs-icon-placeholder:before {
+    color: var(--text-color, #ffffff); /* Color blanco para el icono de volumen */
+}
+
+.video-js .vjs-fullscreen-control .vjs-icon-placeholder:before {
+    color: var(--text-color, #ffffff); /* Color blanco para el icono de pantalla completa */
+}
+
+.video-js .vjs-progress-holder {
+    background-color: var(--light-color, #ffcccc); /* Fondo rojo claro para la barra de progreso */
+}
+
+.video-js .vjs-load-progress {
+    background: var(--medium-color, #ff6666); /* Fondo rojo medio para la barra de carga */
+}
+
+.video-js .vjs-play-progress {
+    background: var(--primary-color, #ff0000); /* Fondo rojo para la barra de reproducción */
+}
+
+/* about */
+
+.about-h2 {
+    margin-top: 2rem;
+    color: #363636;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-weight: 700;
+}
+
+.about-p {
+    margin-top: 2rem;
+    color: #363636;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}

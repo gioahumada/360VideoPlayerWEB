@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "video.js": "^8.17.1",
+    "videojs-panorama": "^0.1.7",
+    "videojs-vr": "^2.0.0"
+  }
+}
