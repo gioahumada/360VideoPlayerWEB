@@ -8,7 +8,7 @@ Este proyecto es un reproductor de video 360 grados basado en `video.js` y sus p
 
 ## Demo
 
-Puedes ver una demostración en vivo del reproductor [aquí](https://360-video-player.netlify.app/).
+Puedes ver una demostración en vivo del reproductor [aquí](https://360-video-player.netlify.app/](https://gioahumada.github.io/360VideoPlayerWEB/)).
 
 ## Instalación
 
